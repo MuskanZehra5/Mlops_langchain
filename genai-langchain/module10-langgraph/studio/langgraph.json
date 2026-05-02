@@ -1,12 +1,8 @@
 {
   "graphs": {
-    "simple_graph": "./1.simple_graph.py:graph",
-    "graph_with_reducers": "./2.graph_with_reducers.py:graph",
-    "router": "./3.router.py:graph"
-  },
+    "simple_graph": "./simple_graph.py:graph"
+ },
   "env": "./.env",
   "python_version": "3.12",
-  "dependencies": [
-    "."
-  ]
+  "dependencies": ["."]
 }
