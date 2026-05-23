@@ -11,12 +11,9 @@ langgraph-prebuilt
 langchain-mcp-adapters
 langgraph-cli[inmem]
 langchain-ollama
-<<<<<<< HEAD
 scikit-learn
-=======
 duckduckgo-search
 scikit-learn 
->>>>>>> 070a477 (updated list of packages)
 requests
 ipykernel
 chromadb

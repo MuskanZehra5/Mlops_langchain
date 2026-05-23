@@ -49,7 +49,6 @@ coverage.xml
 .jupyter/
 .local/
 *.out*
-
 # Environment files
 .env
 .env.*
