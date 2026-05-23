@@ -1,0 +1,17 @@
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: mssql-partition
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong@Passw0rd
+      - MSSQL_PID=Developer
+      - MSSQL_TCP_PORT=1433
+    ports:
+      - "1434:1433"
+    volumes:
+      - ./volumes/v1:/var/opt/mssql/v1
+      - ./volumes/v2:/var/opt/mssql/v2
+      - ./volumes/v3:/var/opt/mssql/v3
+      - ./volumes/v4:/var/opt/mssql/v4
